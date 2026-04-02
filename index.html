@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="First CSS code.css">
+    <title>Treboogie's Game Site!</title>
+    <link rel="icon" type="image/png" href="Treboogie's Game Site Icon.png">
+</head>
+<body>
+    <h1> Hello! And Welcome to treboogie's game site!</h1>
+
+        <audio id="downloadSound" src="Pop.wav"></audio>
+
+        <p>Back to google!</p>
+        <a href="https://www.google.com/?zx=1775077890666&no_sw_cr=1" target="_blank">Google</a>
+
+    
+        <p> 1.Donwload DELVE</p>
+        <a href="DELVE-64Bit.zip" download onclick="playDownloadSound()">DELVE 64 Bit</a>
+        <a href="DELVE-32Bit.zip" download onclick="playDownloadSound()"> DELVE 32 Bit</a>
+
+        <p> 2.Bullet Hell</p>
+        <a href="Screenshot 2026-03-09 225646.png" download>Png as a placeholder</a>
+
+        <p> 3.Tank Fighters!</p>
+        <a href="Screenshot 2026-03-09 225646.png" download>Png as a placeholder</a>
+
+        <div id="overlay" onclick="startSite()" style="position:fixed; top:0; left:0; width:100%; height:100%; background:black; color:white; display:flex; justify-content:center; align-items:center; cursor:pointer; z-index:999;">
+            <h1>Click to Enter Treboogie's Site</h1>
+        </div>
+
+        <audio id="bgMusic" src="Waiting For The Bus.wav" loop></audio>
+
+        <script>
+        function startSite() {
+            // Start the music
+            document.getElementById("bgMusic").play();
+            // Hide the overlay
+            document.getElementById("overlay").style.display = "none";
+        }
+        </script>
+
+        <h2>Socials</h1>
+
+        <p> 1.Youtube [I post music there!]</p>
+        <a href="https://www.youtube.com/@TreBoogiedaspot" target="_blank">Youtube</a>
+
+        <p> 2. Instagram [Music here too, and some other things....I don't post much tho.]</p>
+        <a href="https://www.instagram.com/treboogieboi/" target="_blank">Instagram</a>
+
+        <h3> Music </h3>
+
+        <p>Some Music!</p>
+        <a href="Music Site.html" target="_self">Listen go my music here!</a>
+        <script src="DownloadSound.js"></script>
+        <script src="JavaCode.js"></script>
+
+</body>
+</html>
