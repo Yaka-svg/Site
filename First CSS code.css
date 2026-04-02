@@ -1,0 +1,44 @@
+/* Define the animation */
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px);}
+    100% { transform: translateY(0px);}
+}
+
+
+/* Apply it to your Header */
+h1 {
+    animation: float 3s ease-in-out infinite;
+}
+
+/* This targets the whole body */
+body {
+    background-color:#1b4dac;
+    color: white;              
+    font-family: Pixeltype;   
+    text-align: left;        
+}
+
+/* This targets your download link */
+a {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #306dae79;
+    color: white;
+    text-decoration: none;     /* Removes the underline */
+    border-radius: 5px;        /* Rounded corners */
+}
+a {
+    display: inline-block;
+    transition: all 0.3s ease; /* Makes the change smooth, not instant */
+    text-decoration: none;
+}
+
+audio {
+    color: #701ae0;
+}
+
+a:hover {
+    transform: scale(1.1);
+    background-color: #3f91e979; /* Changes color when you hover! */
+}
